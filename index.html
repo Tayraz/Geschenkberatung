@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI Geschenkberatung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen zur KI Geschenkberatung</h1>
+    </header>
+    <main>
+        <form id="gift-form">
+            <label for="occasion">Anlass:</label>
+            <input type="text" id="occasion" name="occasion" required>
+            <label for="preferences">Präferenzen:</label>
+            <input type="text" id="preferences" name="preferences" required>
+            <button type="submit">Empfehlungen 
+              anzeigen</button>
+        </form>
+        <div id="recommendations"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
